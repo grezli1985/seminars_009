@@ -1,0 +1,5 @@
+/Users/sergey/учеба/Семинар C#/lesson01/Homework1/obj/Debug/net6.0/Homework1.csproj.AssemblyReference.cache
+/Users/sergey/учеба/Семинар C#/lesson01/Homework1/obj/Debug/net6.0/Homework1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergey/учеба/Семинар C#/lesson01/Homework1/obj/Debug/net6.0/Homework1.AssemblyInfoInputs.cache
+/Users/sergey/учеба/Семинар C#/lesson01/Homework1/obj/Debug/net6.0/Homework1.AssemblyInfo.cs
+/Users/sergey/учеба/Семинар C#/lesson01/Homework1/obj/Debug/net6.0/Homework1.csproj.CoreCompileInputs.cache
