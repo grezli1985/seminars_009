@@ -1,0 +1,15 @@
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/bin/Debug/net6.0/Homework4
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/bin/Debug/net6.0/Homework4.deps.json
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/bin/Debug/net6.0/Homework4.runtimeconfig.json
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/bin/Debug/net6.0/Homework4.dll
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/bin/Debug/net6.0/Homework4.pdb
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/obj/Debug/net6.0/Homework4.csproj.AssemblyReference.cache
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/obj/Debug/net6.0/Homework4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/obj/Debug/net6.0/Homework4.AssemblyInfoInputs.cache
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/obj/Debug/net6.0/Homework4.AssemblyInfo.cs
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/obj/Debug/net6.0/Homework4.csproj.CoreCompileInputs.cache
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/obj/Debug/net6.0/Homework4.dll
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/obj/Debug/net6.0/refint/Homework4.dll
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/obj/Debug/net6.0/Homework4.pdb
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/obj/Debug/net6.0/Homework4.genruntimeconfig.cache
+/Users/sergey/учеба/Семинар C#/lesson01/Homework4/obj/Debug/net6.0/ref/Homework4.dll
