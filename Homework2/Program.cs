@@ -6,6 +6,12 @@
 44 5 78 -> 78
 22 3 9 -> 22     */
 
+
+Console.WriteLine();
+Console.WriteLine("__________________");
+Console.WriteLine("Задача 4.");
+
+
 //int numberA = 2;
 //int numberB = 3;
 //int numberC = 7;

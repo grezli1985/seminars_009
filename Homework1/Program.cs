@@ -13,9 +13,9 @@ Console.WriteLine("Задача 2.");
 
 Console.WriteLine("Введите первое число");
 int numberA = Convert.ToInt32(Console.ReadLine());
-//int numberA = 5;
 Console.WriteLine("Введите второе число");
 int numberB = Convert.ToInt32(Console.ReadLine());
+//int numberA = 5;
 //int numberB = 7;
 int max = 0;
 int min = 0;
@@ -33,5 +33,3 @@ Console.Write("min = ");
 Console.WriteLine(min);
 Console.Write("max = ");
 Console.WriteLine(max);
-
-
