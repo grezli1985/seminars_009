@@ -14,7 +14,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 OurPower(number);
 
 
-void OurPower(int currentNumber)
+void OurPower(int number)
 {   
     if(number%2 == 0)
     {
