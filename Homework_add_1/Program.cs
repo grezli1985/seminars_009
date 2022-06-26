@@ -7,19 +7,24 @@ N = 2 -> 1, 1    */
 
 /*Console.WriteLine();
 Console.WriteLine("__________________");
-Console.WriteLine("Задача 1 доп.");
+Console.WriteLine("Задача 1 доп."); */
 
 Console.WriteLine("Введите число");
-int number = Convert.ToInt32(Console.ReadLine()); */
+int N = Convert.ToInt32(Console.ReadLine());
 
-int a = 5;
-int count = 0;
-int b = 0;
-if (count >= a)
+OneWarrior(N);
+
+void OneWarrior( int N)
 {
-    while (b = a / a);
-           a = a - 1;
+int count = 0;
+if (N > 0)
+{
+    while (count < N)
+    {
+    Console.Write("1 ");    
     count++;
-    Console.Write(b + " ");
+    }
 }
+}
+
 
