@@ -22,3 +22,16 @@ void Zadacha9(int currentNumber)
 */
 
 Random rand = new Random();
+int number = rand.Next(10, 1000);
+Console.WriteLine(number);
+
+Zadacha11(number);
+
+void Zadacha11(int currentNamber)
+{
+    // 961 -> 961/100 = 9 , 961 % 10  = 1   
+    int A = currentNamber / 100;
+    int B = currentNamber % 10;
+    int result = A * 10 + B;
+    Console.WriteLine(result);
+}

@@ -34,8 +34,5 @@ while (i < athletes.Length)
     j++;
     }
 i++;
-return;
 }
-
-
 Console.WriteLine();

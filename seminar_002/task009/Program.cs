@@ -17,3 +17,8 @@ void Zadacha(int currentNumber)
         Console.WriteLine($"{number} не является одновременно кратным 7, и 23");
     }
 }
+
+
+// & - коньюкция v и
+// a & b
+//a && b && c && d
