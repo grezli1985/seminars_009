@@ -15,7 +15,7 @@ Zadacha16(numberA, numberB);
 
 void Zadacha16(int a, int b)
 {
-    if (b == a*a & a == b*b)
+    if (b == a*a && a == b*b)
     {
         Console.WriteLine($"{b} является квадратом {a}");
     }
