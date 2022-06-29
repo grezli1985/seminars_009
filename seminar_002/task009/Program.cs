@@ -4,17 +4,17 @@
 
 Console.WriteLine("Введите  число");
 int number = Convert.ToInt32(Console.ReadLine());
-Zadacha(number);
+Zadacha14(number);
 
-void Zadacha(int currentNumber)
+void Zadacha14(int currentNumber)
 {
-    if (number%7==0 & number%23==0)
+    if (currentNumber%7==0 && currentNumber%23==0)
     {
-        Console.WriteLine($"{number} является кратным одновременно 7, и 23");
+        Console.WriteLine($"{currentNumber} является кратным одновременно 7, и 23");
     }
     else
     {
-        Console.WriteLine($"{number} не является одновременно кратным 7, и 23");
+        Console.WriteLine($"{currentNumber} не является одновременно кратным 7, и 23");
     }
 }
 
