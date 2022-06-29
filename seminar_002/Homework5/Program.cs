@@ -9,16 +9,22 @@
 32679 -> 6  */
 
 
-Random rand = new Random();
-int number = rand.Next(10, 1000);
-Zadacha11(number);
+Console.WriteLine("Введите число");
+string number = Console.ReadLine();
 
-void Zadacha11(int currentNamber)
-{
-    Console.WriteLine(currentNamber);
-    // 961 -> 961/100 = 9 , 961 % 100 / 10 = 6   
-    int A = currentNamber / 100;
-    int B = currentNamber % 10;
-    int result = A * 10 + B;
-    Console.WriteLine(result);
+TripleNamber(number);
+
+void TripleNamber(string number)
+{  
+    if (number.Length >= 3)
+    {
+        Console.WriteLine(number[2]);
+    }
+    else 
+    {
+        Console.WriteLine("третья цифра отсутствует");
+    }
 }
+
+
+
