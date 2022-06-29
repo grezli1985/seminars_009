@@ -9,17 +9,17 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
-Zadacha9(numberA, numberB);
+Zadacha12(numberA, numberB);
 
-void Zadacha9(int arg1, int arg2)
+void Zadacha12(int arg1, int arg2)
 {
     if (arg1%arg2 == 0)
     {
-        Console.WriteLine("является");
+        Console.WriteLine($"{arg1} является кратным {arg2}");
     }
     else
     {
-        Console.WriteLine("не является");
+        Console.WriteLine($"{arg1} не является кратным {arg2}, остаток равен {arg1%arg2}");
     }
 }
     
