@@ -4,7 +4,7 @@
 3, 5 -> 243 (3⁵)
 2, 4 -> 16         */ 
 
-void Zadacha25()
+/*void Zadacha25()
 {
     
 Console.Write("Введите число A = ");
@@ -30,6 +30,26 @@ int Exponentiation(int numberA, int numberB)
         }
         return result;
         
+}  */
+
+
+void Zadacha25()
+{
+    Random random = new Random();
+    int number = random.Next(2, 6);
+    int exponent = random.Next(2, 5);
+
+    Console.WriteLine($"Число {number} в степини {exponent} равно {Power(number, exponent)}");
+}
+
+int Power(int number, int exponent)
+{
+    int result = 1;
+    for(int i = 0; i < exponent; i++) /// 0 1 2
+    {
+        result *= number;
+    }
+    return  result;
 }
 
 Zadacha25();
