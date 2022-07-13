@@ -3,6 +3,7 @@
 3 -> 1, 8, 27.
 5 -> 1, 8, 27, 64, 125 */ 
 
+/*
 void Zadacha23()
 {   
         Console.WriteLine("Введите число ");
@@ -17,5 +18,16 @@ void Zadacha23()
         Console.WriteLine();
 }     
 
-Zadacha23(); 
+Zadacha23();    */
 
+void Zadacha23()
+{
+    int number = 12;
+
+    for(int i = 1; i <= number; i++)
+    {
+        Console.WriteLine($"{i}^3 = {Math.Pow(i, 3)} ");  
+    }
+    Console.WriteLine();
+}
+Zadacha23();
