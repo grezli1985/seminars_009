@@ -19,7 +19,7 @@ int DigitsNumber(int number)
         int i = 0;
         while (number > 0)
         {
-            number = number /10;
+            number = number / 10;
             i++;
         }
         return i;
