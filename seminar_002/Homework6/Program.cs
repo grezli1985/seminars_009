@@ -7,7 +7,7 @@
 1 -> нет*/
 
 Console.WriteLine("Введите число недели");
-int numberA = Convert.ToInt32(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 
 void Day(int numberA)
 {
@@ -67,4 +67,4 @@ void Day(int numberA)
     else Console.WriteLine("Вот неделька, в ней семь дней.");
 }
 
-Day(numberA);
+Day(number);
