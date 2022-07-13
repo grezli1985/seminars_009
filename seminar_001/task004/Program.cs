@@ -1,5 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-// Console.WriteLine("Hello, World!");
+﻿/* Задача 5: Напишите программу, 
+вычесления значения функции возведения числа в квадрат.
+4 -> 16
+-3 -> 9
+-7 -> 49 */
 
 //
 Console.WriteLine();
