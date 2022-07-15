@@ -29,4 +29,22 @@ void CountNumbers(int[] arr)
     Console.WriteLine($"Кол-во чисел больше 0 = {count}");
 }
 
-Zadacha41();
+//Zadacha41();
+
+
+void Zadacha41_1()
+{
+
+    int m = 5;
+    int count = 0;
+    for (int i = 0; i < m; i++)   // i < 5;   0 1 2 3 4
+    {
+        Console.WriteLine();
+        Console.Write($"Введите {i + 1}-е число: ");
+        int number = Convert.ToInt32(Console.ReadLine());
+        if (number > 0) count++;
+    }
+    Console.WriteLine("Количество чисел больше нуля: " + count);
+}
+
+Zadacha41_1();
