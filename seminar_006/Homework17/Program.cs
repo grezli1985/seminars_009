@@ -28,4 +28,27 @@ void IntersectionPoint(double k1, double b1, double k2, double b2)
     Console.WriteLine($"Пересечение в точке: ({x};{y})");
 }
 
-Zadacha43();
+//Zadacha43();
+
+
+void Zadacha43_1()  //??? 
+{
+    int k1 = 5;  //0, 3, 1, 2 -> (-1;3)
+    int b1 = 2;  //5, 2, 9, 4 -> (0;2) ???  -> (-0,5; -5,5) 
+    int k2 = 9;
+    int b2 = 4;
+
+    if (k1 != k2)
+    {
+        double x = (b1 - b2) / (k1 - k2);
+        double y = k1 * x + b1;
+
+        Console.WriteLine($"Точка пересечения прямых: ({x};{y})");
+    }
+    else
+    {
+        Console.WriteLine($"Прямые параллельны");
+    }
+}
+
+Zadacha43_1();
