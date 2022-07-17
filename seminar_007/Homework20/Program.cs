@@ -23,17 +23,17 @@ void ArithmeticMean(int[,] array, int columns, int rows)
 {
     for (int i = 0; i < columns; i++)
     {
-        double m = 0;
+        double number = 0;
         double sum = 0;
         for (int j = 0; j < rows; j++)
         {
             sum += array[j, i];
-            m = sum;
+            number = sum;
             Console.Write(array[j, i] +  " + ");   
         }
         Console.Write("\b\b");
         sum = Math.Round(sum / rows, 1);
-        Console.WriteLine($"= {m} / {rows} = {sum}");
+        Console.WriteLine($"=  {number}  /  {rows}  =  {sum}");
     }
 }
 
