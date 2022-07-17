@@ -30,7 +30,7 @@ void TakesPositionsReturnsValue(int[,] array)
 
 
     for (i = 0; i < a; i++){}
-        for (j =0; j < b; j++){}  
+        for (j = 0; j < b; j++){}  
     if(a < i | a > array.GetLength(0) - 1 | b < j | b > array.GetLength(1) - 1)
     {
         Console.Write("такого элемента нет ");
@@ -38,7 +38,7 @@ void TakesPositionsReturnsValue(int[,] array)
     }
     else 
     {
-        Console.Write($"Строка {i} столбик {j} ваша цифра {array[i, j]}");
+        Console.Write($"Строка {i} столбик {j} ваша цифра {array[i - 1, j - 1]}");
         Console.WriteLine();
     }
 }
