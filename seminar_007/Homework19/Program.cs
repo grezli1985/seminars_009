@@ -70,4 +70,29 @@ void PrintArray(int[,] array, int rows, int columns)
     
 }
 
-Zadacha50();
+//Zadacha50();
+
+
+void Zadacha50_1()
+{
+
+    Random random = new Random();
+    int rows = random.Next(2, 6);
+    int columns = random.Next(4, 9);
+
+    int[,] array = new int[rows, columns];
+    FillArray(array, rows, columns);
+    PrintArray(array, rows, columns);
+
+    Console.Write("Виберите номер строки: ");
+    int row = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Виберите номер столбца: ");
+    int column = Convert.ToInt32(Console.ReadLine());
+    if(row >= 1 && row <= rows && column >= 1 && column <= columns)
+    {
+        Console.WriteLine($"Искомый элемент array[{row}, {column}] = {array[row - 1, column - 1]} ");
+    }
+    else  Console.WriteLine("Искомый элемент не найден");
+}
+
+Zadacha50_1();

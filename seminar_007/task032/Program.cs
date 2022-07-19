@@ -12,7 +12,7 @@ void Zadacha51()
 {
     int rows = 3;
     int columns = 4;
-    int[,] array = new int[rows, columns]; // 4 x 5
+    int[,] array = new int[rows, columns]; 
     FillArray(array);
     PrintArray(array);
     //SumElements(array);                  // перебор двумя циклами

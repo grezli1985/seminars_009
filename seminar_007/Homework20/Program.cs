@@ -44,7 +44,7 @@ void FillArray(int[,] array, int rows, int columns)
     {
         for (int j = 0; j < columns; j++)
         {
-            array[i, j] = random.Next(1, 10);
+            array[i, j] = random.Next(0, 10);
         }
     }
 }
