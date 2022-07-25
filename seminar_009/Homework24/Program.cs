@@ -9,6 +9,7 @@ void Zadacha64()
     Console.Write("Видите число N: ");
     int N = Convert.ToInt32(Console.ReadLine());
     MultiplesOfThree(M, N);
+    Console.WriteLine();
 }
 
 void MultiplesOfThree(int m, int n)
@@ -19,7 +20,7 @@ void MultiplesOfThree(int m, int n)
     m++;
     MultiplesOfThree(m, n);
 }
-Console.WriteLine();
+
 
 
 Zadacha64();
